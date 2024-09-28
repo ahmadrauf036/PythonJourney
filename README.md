@@ -2,14 +2,6 @@
 
 Welcome to my **Python Journey** repository! This collection contains a variety of Python tasks and projects that showcase my progress from beginner to expert. The goal is to document my learning and provide useful examples for anyone interested in mastering Python.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Learning Path](#learning-path)
-- [Repository Structure](#repository-structure)
-- [Getting Started](#getting-started)
-- [Project Highlights](#project-highlights)
-
 ---
 
 ## Introduction
