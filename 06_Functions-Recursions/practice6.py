@@ -1,14 +1,15 @@
-def multiplicationTable(n:int,m:int=10):
-    if(m==0):
+def printShape(n:int):
+    if(n==0):
         return 0
-    a=multiplicationTable(n,m-1)+1
-    print(f"{n} * {m} = {n*a}")
-    return a
+    printShape(n-1)
+    print("*"*n)
+    return 0
+    
 
 def main():
     n=int(input("Enter a number: "))
     
-    multiplicationTable(n)
+    printShape(n)
     
 main()
         

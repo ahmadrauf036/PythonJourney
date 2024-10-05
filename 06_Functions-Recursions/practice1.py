@@ -1,3 +1,5 @@
+# creating a function
+
 def greatestOf3(a:int,b:int,c:int):
     if (a>b) and (a>c):
         print(f"{a} is greater.")

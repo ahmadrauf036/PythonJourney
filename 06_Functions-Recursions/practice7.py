@@ -1,9 +1,9 @@
 def printShape(n:int):
     if(n==0):
         return 0
-    printShape(n-1)
+    
     print("*"*n)
-    return 0
+    return printShape(n-1)
     
 
 def main():

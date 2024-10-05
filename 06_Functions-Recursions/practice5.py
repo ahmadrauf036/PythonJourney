@@ -1,12 +1,14 @@
-def factorial(n:int):
-    if(n==1):
-        return 1
-    return n*factorial(n-1)
+def multiplicationTable(n:int,m:int=10):
+    if(m==0):
+        return 0
+    a=multiplicationTable(n,m-1)+1
+    print(f"{n} * {m} = {n*a}")
+    return a
 
 def main():
     n=int(input("Enter a number: "))
     
-    print(factorial(n))
+    multiplicationTable(n)
     
 main()
         

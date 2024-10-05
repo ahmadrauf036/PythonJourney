@@ -1,20 +1,25 @@
-def printShape(n:int,m:int=0):
-    if(m==n):
-        return 0
-    elif(m==0 or m==n-1):
-        print("*"*n)
-    else:
-        print("*"+" "*(n-2)+"*")
-        
-    
-    
-    return printShape(n,m+1)
+def remove(l:list[str],word:str):
+    n=[]
+    for item in l:
+        if item==word:
+            continue
+        elif item!=word:
+            n.append(item.strip(word))
+    return n
     
 
 def main():
-    n=int(input("Enter a number: "))
-    
-    printShape(n)
+    l=[]
+    n=""
+    while n!="exit":
+        n=input("Enter string: ")
+        if n=="exit":
+            break
+        l.append(n)
+    print(l)
+    word=input("Enter word to remove: ")
+    l=remove(l,word)
+    print(l)
     
 main()
         

@@ -1,5 +1,5 @@
 name=input("Enter your  name: ")
-
+#in operator
 if(len(name)<10):
     print("less then 10")
 else: 

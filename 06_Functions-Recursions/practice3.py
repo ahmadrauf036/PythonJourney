@@ -1,10 +1,12 @@
-def celsiusToFahrenheit(c:int):
-    print("Fahrenheit:",(c * (9/5) + 32))
+def sumOfNaturalNumbers(n:int):
+    if(n==1):
+        return 1
+    return n+sumOfNaturalNumbers(n-1)
 
 def main():
-    c=int(input("Enter temperature in Celsius: "))
+    n=int(input("Enter a number: "))
     
-    celsiusToFahrenheit(c)
+    print(sumOfNaturalNumbers(n))
     
 main()
         
