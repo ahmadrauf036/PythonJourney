@@ -31,8 +31,4 @@ This journey is organized into chapters and projects, starting with the basics a
 - **12**: Advanced Python 1
 - **13**: Advanced Python 2
 
-### Projects:
-- **Basic Level Project**: Snake, Water, Gun Game
-- **Mega Project 1**: Jarvis (AI Assistant)
-- **Mega Project 2**: Auto Reply AI Chatbot
 
